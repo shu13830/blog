@@ -3,34 +3,34 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>P&#39;olya-Gamma データ拡大法における識別可能性の問題 | shu13830’s Blog</title>
+<title>Pólya-Gamma データ拡大法における識別可能性の問題 | shu13830’s Blog</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="P&#39;olya-Gamma データ拡大法における識別可能性の問題" />
+<meta property="og:title" content="Pólya-Gamma データ拡大法における識別可能性の問題" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="P&#39;olya-Gamma データ拡大法における識別可能性の問題とその対応." />
-<meta property="og:description" content="P&#39;olya-Gamma データ拡大法における識別可能性の問題とその対応." />
+<meta name="description" content="Pólya-Gamma データ拡大法における識別可能性の問題とその対応." />
+<meta property="og:description" content="Pólya-Gamma データ拡大法における識別可能性の問題とその対応." />
 <link rel="canonical" href="https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html" />
 <meta property="og:url" content="https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html" />
 <meta property="og:site_name" content="shu13830’s Blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-05-31T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"P&#39;olya-Gamma データ拡大法における識別可能性の問題とその対応.","@type":"BlogPosting","headline":"P&#39;olya-Gamma データ拡大法における識別可能性の問題","dateModified":"2020-05-31T00:00:00-05:00","datePublished":"2020-05-31T00:00:00-05:00","url":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html"},"@context":"https://schema.org"}</script>
+{"description":"Pólya-Gamma データ拡大法における識別可能性の問題とその対応.","@type":"BlogPosting","headline":"Pólya-Gamma データ拡大法における識別可能性の問題","dateModified":"2020-05-31T00:00:00-05:00","datePublished":"2020-05-31T00:00:00-05:00","url":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://shu13830.github.io/blog/feed.xml" title="shu13830's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>P&#39;olya-Gamma データ拡大法における識別可能性の問題 | shu13830’s Blog</title>
+<title>Pólya-Gamma データ拡大法における識別可能性の問題 | shu13830’s Blog</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="P&#39;olya-Gamma データ拡大法における識別可能性の問題" />
+<meta property="og:title" content="Pólya-Gamma データ拡大法における識別可能性の問題" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="P&#39;olya-Gamma データ拡大法における識別可能性の問題とその対応." />
-<meta property="og:description" content="P&#39;olya-Gamma データ拡大法における識別可能性の問題とその対応." />
+<meta name="description" content="Pólya-Gamma データ拡大法における識別可能性の問題とその対応." />
+<meta property="og:description" content="Pólya-Gamma データ拡大法における識別可能性の問題とその対応." />
 <link rel="canonical" href="https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html" />
 <meta property="og:url" content="https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html" />
 <meta property="og:site_name" content="shu13830’s Blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-05-31T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"P&#39;olya-Gamma データ拡大法における識別可能性の問題とその対応.","@type":"BlogPosting","headline":"P&#39;olya-Gamma データ拡大法における識別可能性の問題","dateModified":"2020-05-31T00:00:00-05:00","datePublished":"2020-05-31T00:00:00-05:00","url":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html"},"@context":"https://schema.org"}</script>
+{"description":"Pólya-Gamma データ拡大法における識別可能性の問題とその対応.","@type":"BlogPosting","headline":"Pólya-Gamma データ拡大法における識別可能性の問題","dateModified":"2020-05-31T00:00:00-05:00","datePublished":"2020-05-31T00:00:00-05:00","url":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://shu13830.github.io/blog/mcmc/2020/05/31/pgda-identifiability.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -101,7 +101,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">P\&#39;olya-Gamma データ拡大法における識別可能性の問題</h1><p class="page-description">P\'olya-Gamma データ拡大法における識別可能性の問題とその対応.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-31T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Pólya-Gamma データ拡大法における識別可能性の問題</h1><p class="page-description">Pólya-Gamma データ拡大法における識別可能性の問題とその対応.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-31T00:00:00-05:00" itemprop="datePublished">
         May 31, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -124,13 +124,23 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h1"><a href="#example-markdown-post">Example Markdown Post</a>
+<li class="toc-entry toc-h1"><a href="#pólya-gamma-データ拡大法における識別可能性の問題">Pólya-Gamma データ拡大法における識別可能性の問題</a>
 <ul>
 <li class="toc-entry toc-h2"><a href="#footnotes">Footnotes</a></li>
 </ul>
 </li>
-</ul><h1 id="example-markdown-post">
-<a class="anchor" href="#example-markdown-post" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Markdown Post</h1>
+</ul><h1 id="pólya-gamma-データ拡大法における識別可能性の問題">
+<a class="anchor" href="#p%C3%B3lya-gamma-%E3%83%87%E3%83%BC%E3%82%BF%E6%8B%A1%E5%A4%A7%E6%B3%95%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%AD%98%E5%88%A5%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AE%E5%95%8F%E9%A1%8C" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pólya-Gamma データ拡大法における識別可能性の問題</h1>
+
+<p>以下の、対数正規-多項モデルを考える。</p>
+
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable rowspacing="0.24999999999999992em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mtext mathvariant="bold">x</mtext><mo>∈</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mtext> </mtext><msup><mi mathvariant="double-struck">R</mi><mi>M</mi></msup></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>y</mi><mo>∼</mo></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mi mathvariant="script">M</mi><mo stretchy="false">(</mo><mi>s</mi><mi>o</mi><mi>f</mi><mi>t</mi><mi>m</mi><mi>a</mi><mi>x</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}
+\textbf{x} \in&amp;\ \mathbb{R}^M\\
+y \sim&amp; \mathcal{M}(softmax(x))
+
+\end{aligned}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.0513310000000002em;vertical-align:-1.2756655000000001em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.7756655000000001em;"><span style="top:-3.8843345000000005em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord textbf">x</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∈</span></span></span><span style="top:-2.3843345em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∼</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2756655000000001em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.7756655000000001em;"><span style="top:-3.8843345000000005em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace"> </span><span class="mord"><span class="mord"><span class="mord mathbb">R</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913309999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span></span></span></span></span></span></span><span style="top:-2.3843345em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathcal">M</span></span><span class="mopen">(</span><span class="mord mathdefault">s</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord mathdefault">t</span><span class="mord mathdefault">m</span><span class="mord mathdefault">a</span><span class="mord mathdefault">x</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2756655000000001em;"><span></span></span></span></span></span></span></span></span></span></span></span>
+
+<p>実数空間上の潜在変数 $x \in \mathbb{R}$</p>
 
 <h2 id="footnotes">
 <a class="anchor" href="#footnotes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnotes</h2>
